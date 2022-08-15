@@ -25,7 +25,7 @@ const btnNode = document.querySelector('button');
 function displayResult(apiData) {
     let cards = '';
 
-    apiData.forEach(item => {
+    apiData.forEach((item) => {
         const cardBlock = `
       <div class="card">
         <img src="${item.download_url}" class="card-image" alt=""/>
